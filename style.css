@@ -1,0 +1,66 @@
+:root {
+	animation-name: bkground;
+	animation-duration: 480s;
+	animation-iteration-count: infinite;
+}
+
+.titulo {
+	color: #0fe35d;
+	margin: center auto;
+	padding: 0px;
+	text-align: center;
+	text-shadow: 2px 2px 3px black;
+}
+
+@keyframes bkground {
+	0% {background-color: #836FFF;}
+  25%  {background-color: #3CB371;}
+  50%  {background-color: #FFD700;}
+  100% {background-color: #FA8072;}
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	transform: translate(-50%, -40%);
+	max-width: 500px;
+	width: 70%;
+}
+
+form label {
+	text-align: center;
+	text-shadow: 1px 1px 1px rgb(206, 206, 206);
+	margin: 3px;
+	padding: 1px;
+}
+
+form input[type="fields"] {
+	border: none;
+	border-radius: 8px;
+	margin: 3px;
+	padding: 6px;
+	text-align: center;
+}
+
+form input[type="submit"] {
+	background: #8fc2a6;
+	margin: 4px;
+	padding: 5px;
+	border-radius: 8px;
+}
+
+form input[type="submit"]:hover {
+	color: aliceblue;
+	background: #5857a7;
+	cursor: pointer;
+}
+
+footer {
+	position: absolute;
+	bottom: 5%;
+	left: 50%;
+	transform: translate(-50%, -5%);
+}
